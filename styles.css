@@ -3,3 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* DRAWING AREA */
+
+.draw-area {
+  display: grid;
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+}
