@@ -17,20 +17,24 @@
           <div class="controls">
             <div class="color-selectors">
               <div class="pen-color-card selector">
-                <input class="color-selector" type="color" />
+                <input class="color-selector" type="color" value="#000000" />
                 <p>Pen Color</p>
               </div>
               <div class="bg-color-card selector">
-                <input class="background-color-selector" type="color" />
+                <input
+                  class="background-color-selector"
+                  type="color"
+                  value="#ffffff"
+                />
                 <p>Background color</p>
               </div>
             </div>
             <button class="eraser-btn btn">Toggle Eraser</button>
-            <button class="erase-btn btn">Clear</button>
+            <button class="clear-btn btn">Clear</button>
             <div class="grid-size">
               <input type="range" min="1" max="64" />
             </div>
-            <p>Grid size: <span class="grid-size-el"></span></p>
+            <p>Grid size: <span class="grid-text-el"></span></p>
             <button class="grid-line-el btn">Toggle Grid Lines</button>
           </div>
         </div>
