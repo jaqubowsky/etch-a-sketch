@@ -12,26 +12,32 @@
       <header class="header">
         <h1 class="title">ETCH-A-SKETCH</h1>
       </header>
-      <div class="container-left">
-        <div class="controls">
-          <div class="color-select">
-            <input class="color-selector" type="color" />
-            <input class="background-color-selector" type="color" />
-          </div>
-          <div class="erase-section">
-            <button class="eraser-btn btn">Toggle eraser</button>
+      <div class="containers">
+        <div class="container-left">
+          <div class="controls">
+            <div class="color-selectors">
+              <div class="pen-color-card selector">
+                <input class="color-selector" type="color" />
+                <p>Pen Color</p>
+              </div>
+              <div class="bg-color-card selector">
+                <input class="background-color-selector" type="color" />
+                <p>Background color</p>
+              </div>
+            </div>
+            <button class="eraser-btn btn">Toggle Eraser</button>
             <button class="erase-btn btn">Clear</button>
-          </div>
-          <div class="grid-size">
-            <input type="range" min="1" max="64" />
+            <div class="grid-size">
+              <input type="range" min="1" max="64" />
+            </div>
             <p>Grid size: <span class="grid-size-el"></span></p>
-            <button class="grid-line-el btn">Toggle grid lines</button>
+            <button class="grid-line-el btn">Toggle Grid Lines</button>
           </div>
         </div>
-      </div>
-      <div class="container-right">
-        <div class="cont-menu"></div>
-        <div class="draw-area"></div>
+        <div class="container-right">
+          <div class="cont-menu"></div>
+          <div class="draw-area"></div>
+        </div>
       </div>
     </div>
     <footer class="footer"></footer>
