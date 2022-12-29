@@ -228,4 +228,5 @@ input[type="range"]:focus::-ms-fill-upper {
   width: 600px;
   border: 20px solid var(--border-color);
   background-color: white;
+  user-select: none;
 }
