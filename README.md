@@ -1,4 +1,4 @@
-<h1>Etch a Sketch</h1><br>
+<h1>Etch a Sketch</h1>
 <hr>
 <p>Etch a Sketch created with HTML, CSS and JavaScript.
 
